@@ -77,7 +77,7 @@ export class InputHandler {
 
     handleKeypress(event: any): void {
         let keyCode = event.which || event.charCode || event.keyCode;
-        event.preventDefault();
+
         if (keyCode === 97 && event.ctrlKey) {
             return;
         }
